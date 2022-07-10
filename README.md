@@ -1,0 +1,2 @@
+# Par-dessus-bord
+Réécriture en LaTeX de la pièce "Par-dessus bord" de Michel Vinaver. Cette réécriture ajoute la ponctuation que l'auteur a souhaité omettre, de façon subjective, où je l'estime nécessaire. Des indications spatiales sont également incluses. En effet, il arrive dans la pièce que deux répliques successives soient prononcées par des personnages qui ne se trouvent pas au même endroit. Ces changements de lieux sont donc indiqués.
