@@ -57,6 +57,9 @@
 % Allows to customize chapters, sections, etc
 \usepackage{titlesec}
 
+% Allows to create starred commands
+\usepackage{suffix}
+
 % Set up the horizontal space before the first line of a new paragraph to 2em and the vertical space between two paragraphs to 1em.
 \setlength{\parindent}{2em}
 \setlength{\parskip}{1em}
@@ -328,6 +331,10 @@ frametitleaboveskip=\dimexpr-\ht\strutbox\relax,roundcorner=5pt}
 \begin{mdframed}[]\relax%
 }{\end{mdframed}}
 
+\newcommand{\annot}[1]{{\footnotesize \textcolor{blue}{\textit{(#1)}}}}
+\WithSuffix\newcommand{\annot}*[1]{\textcolor{blue}{\textit{#1}}}
+
+
 \begin{document}
 %\renewcommand{\labelitemi}{\(\bullet\)}
 
@@ -372,6 +379,45 @@ Il m'est même arrivé d'autoriser des versions encore plus réduites et en mêm
 \begin{flushright}
 MICHEL VINAVER
 \end{flushright}
+
+\chapter*{Personnages}
+\addcontentsline{toc}{chapter}{Personnages}
+
+\annot*{Entre parenthèses, pour chaque personnage, le nom qui lui est associé au début de ses répliques.}
+
+\begin{center}
+Fernand Dehaze, P.-D.G. de Ravoire et Dehaze \annot{DEHAZE}\\
+Olivier Dehaze, directeur général adjoint \annot{OLIVIER}\\
+Benoît Dehaze, directeur commercial \annot{BENOÎT}\\
+Madame Alvarez, directeur administratif \annot{MADAME ALVAREZ}\\
+Passemar, chef du service administration des ventes \annot{PASSEMAR}\\
+Madame Bachevski, directeur des achats \annot{MADAME BACHEVSKI}\\
+Monsieur Cohen, chef comptable \annot{COHEN}\\
+Grangier, chef planning fabrication \annot{GRANGIER}\\
+Dutôt, chef des ventes \annot{DUTÔT}\\
+Lubin, représentant \annot{LUBIN}\\
+Saillant, controller \annot{SAILLANT}\\
+Battistini, chef de service études de marché \annot{BATTISTINI}\\
+Peyre, chef de produit \annot{PEYRE}\\
+Madame Lépine, grossiste en droguerie \annot{MADAME LÉPINE}\\
+Monsieur Onde, professeur au Collège de France \annot{MONSIEUR ONDE}\\
+Docteur Temple, médecin des hôpitaux \annot{DOCTEUR TEMPLE}\\
+Monsieur Toppfer, antiquaire \annot{TOPPFER}\\
+Monsieur Ausange, banquier \annot{AUSANGE}\\
+Margerie Dehaze, femme de Benoît \annot{MARGERIE}\\
+Alex Klein, musicien de jazz \annot{ALEX}\\
+Jiji, fille de Lubin \annot{JIJI}\\
+Yvonne Ravoire, tante de Benoît et d'Olivier \annot{TANTE YVONNE}\\
+Jack Donohue, conseiller en marketing \annot{JACK}\\
+Jenny Frankfurter, conseiller en marketing \annot{JENNY}\\
+Reszanyi, psychosociologue, conseil d'entreprise \annot{RESZANYI}\\
+Ralph Young, président de United Paper Europe \annot{YOUNG}\\
+Jaloux, concepteur-rédacteur, agence de publicité \annot{JALOUX}\\
+\end{center}
+
+\begin{center}
+\textit{Un pianiste. Trois danseurs. Un modèle nu. Deux musiciens noirs. Une bonne. Deux auditrices au Collège de France. Employés de Ravoire et Dehaze. Clients de L'Infirmerie.}
+\end{center}
 \end{document}
 
 
