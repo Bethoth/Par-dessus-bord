@@ -332,8 +332,12 @@ frametitleaboveskip=\dimexpr-\ht\strutbox\relax,roundcorner=5pt}
 }{\end{mdframed}}
 
 \newcommand{\annot}[1]{{\footnotesize \textcolor{blue}{\textit{(#1)}}}}
-\WithSuffix\newcommand{\annot}*[1]{\textcolor{blue}{\textit{#1}}}
+\WithSuffix\newcommand{\annot}*[1]{\textcolor{blue}{\textit{#1}}\\}
 
+\newcommand{\repl}[2]{\uppercase{#1}\\\\#2\\}
+\WithSuffix\newcommand{\repl}*[3]{\uppercase{#1} \textit{(#2)}\\\\#3\\}
+
+\newcommand{\didas}[1]{\textit{#1}\\}
 
 \begin{document}
 %\renewcommand{\labelitemi}{\(\bullet\)}
@@ -343,24 +347,24 @@ frametitleaboveskip=\dimexpr-\ht\strutbox\relax,roundcorner=5pt}
 \renewcommand{\contentsname}{Sommaire}
 \dominitoc\tableofcontents
 
-\chapter*{Préface}
-\addcontentsline{toc}{chapter}{Préface}
+\chapter*{PRÉFACE}
+\addcontentsline{toc}{chapter}{PRÉFACE}
 
 \begin{center}
 DIALOGUE AVEC MOI-MÊME\\(APOCRYPHE)
 \end{center}
 
--- Vous dessinez quoi dans ce bloc note ? On dirait un grand bâtiment. En réunion, je vous vois toujours en train de dessiner quelque chose.
+--- Vous dessinez quoi dans ce bloc note ? On dirait un grand bâtiment. En réunion, je vous vois toujours en train de dessiner quelque chose.
 
--- Je fais du \textit{doodling}. Ce qui vient à la pointe de mon crayon. N'importe quoi. Ça m'aide à penser.
+--- Je fais du \textit{doodling}. Ce qui vient à la pointe de mon crayon. N'importe quoi. Ça m'aide à penser.
 
--- Qu'est-ce que ce \textit{building} représente ?
+--- Qu'est-ce que ce \textit{building} représente ?
 
--- C'est la tour à Boston dans laquelle il y a le \(57^{\text{e}}\) étage, celui des bureaux du siège de l'entreprise. Tous les grands patrons de Gillette au plan mondial y ont leur bureau avec les secrétaires. La moquette y est épaisse. Ce sont des lieux sans bruit.
+--- C'est la tour à Boston dans laquelle il y a le \(57^{\text{e}}\) étage, celui des bureaux du siège de l'entreprise. Tous les grands patrons de Gillette au plan mondial y ont leur bureau avec les secrétaires. La moquette y est épaisse. Ce sont des lieux sans bruit.
 
--- J'imagine que vous n'y avez jamais mis les pieds.
+--- J'imagine que vous n'y avez jamais mis les pieds.
 
--- Faux. Une fois ils m'ont convoqué pour se faire une idée de moi. C'est une de leurs fonctions que d'identifier, parmi les jeunes cadres, les futurs responsables de leurs filiales dans les différents pays et de programmer leur formation. Ainsi, ils me mirent sur la route. J'accompagnais des représentants Gillette dans la tournée de leur clientèle en Grande-Bretagne, en France. A la suite de cette initiation, je fus nommé à la tête de Gillette Benelux, puis de Gillette Italie. Enfin, le poste suprême en France devint vacant et me fut attribué, qui comportait des directions générales et commerciales, et la direction des trois usines en Haute-Savoie. Avec femme et enfants à présent, je continuais d'écrire. Allais-je pouvoir continuer longtemps à cheval sur deux métiers plus une famille ?
+--- Faux. Une fois ils m'ont convoqué pour se faire une idée de moi. C'est une de leurs fonctions que d'identifier, parmi les jeunes cadres, les futurs responsables de leurs filiales dans les différents pays et de programmer leur formation. Ainsi, ils me mirent sur la route. J'accompagnais des représentants Gillette dans la tournée de leur clientèle en Grande-Bretagne, en France. À la suite de cette initiation, je fus nommé à la tête de Gillette Benelux, puis de Gillette Italie. Enfin, le poste suprême en France devint vacant et me fut attribué, qui comportait des directions générales et commerciales, et la direction des trois usines en Haute-Savoie. Avec femme et enfants à présent, je continuais d'écrire. Allais-je pouvoir continuer longtemps à cheval sur deux métiers plus une famille ?
 
 Je négociai ma sortie de l'opérationnel chez Gillette, en n'y conservant que des fonctions légères et un salaire allégé lui aussi. Ce faisant, je commençai à me rendre compte que mon activité d'écriture théâtrale fuitait dans l'entreprise parmi le personnel. Mon image s'y brouillait.
 
@@ -380,8 +384,8 @@ Il m'est même arrivé d'autoriser des versions encore plus réduites et en mêm
 MICHEL VINAVER
 \end{flushright}
 
-\chapter*{Personnages}
-\addcontentsline{toc}{chapter}{Personnages}
+\chapter*{PERSONNAGES}
+\addcontentsline{toc}{chapter}{PERSONNAGES}
 
 \annot*{Entre parenthèses, pour chaque personnage, le nom qui lui est associé au début de ses répliques.}
 
@@ -418,6 +422,373 @@ Jaloux, concepteur-rédacteur, agence de publicité \annot{JALOUX}\\
 \begin{center}
 \textit{Un pianiste. Trois danseurs. Un modèle nu. Deux musiciens noirs. Une bonne. Deux auditrices au Collège de France. Employés de Ravoire et Dehaze. Clients de L'Infirmerie.}
 \end{center}
+
+\chapter*{PREMIER MOUVEMENT\\}
+\addcontentsline{toc}{chapter}{PREMIER MOUVEMENT}
+
+\section*{Cartes sur table}
+
+\setlength{\parindent}{0em}
+
+\didas{Le comptoir de Lépine Frères.}
+
+\repl{Lubin}{Quelque chose aujourd'hui à vous présenter de sensationnel.}
+
+\repl{Madame Lépine}{Tout est toujours sensationnel.}
+
+\repl{Lubin}{Un événement sans précédent.}
+
+\repl{Madame Lépine}{Aujourd'hui, c'est en ordre, je n'ai besoin de rien.}
+
+\repl{Lubin}{Une offre incroyable que ma société a étudiée spécialement pour vous, parce que, vous savez, les temps sont difficiles.}
+
+\repl{Madame Lépine}{À qui le dites-vous...}
+
+\repl{Lubin}{Justement.}
+
+\repl{Madame Lépine}{Depuis le début janvier, c'est calme, mais alors c'est calme.}
+
+\repl{Lubin}{Bientôt le printemps, madame Lépine.}
+
+\repl{Madame Lépine}{Le printemps, parlez m'en.}
+
+\repl{Lubin}{C'est pour vous faire gagner de l'argent.}
+
+\repl{Madame Lépine}{Pour gagner, il faut vendre.}
+
+\repl{Lubin}{C'est pour vous faire vendre que nous avons mis au point une offre avantageuse, pour vous et vos détaillants. Un million huit cent mille femmes en France vont se jeter dessus.}
+
+\repl{Madame Lépine}{Je ne suis pas acheteuse aujourd'hui.}
+
+\repl{Lubin}{Je savais bien que ça vous intéresserait malgré tout. Cinquante-cinq centimes d'économie pour la ménagère, et pour vous le quatorze douze.}
+
+\repl{Madame Lépine}{Je connais ma clientèle. La prochaine fois.}
+
+\repl{Lubin}{Notez que vous n'avez pas tort, il ne faut pas vous stocker plus que nécessaire. Je ne vous en propose que six grosses, la septième grosse gratuite est pour vous.}
+
+\repl{Madame Lépine}{J'en ai encore plein les rayons. Regardez, vos offres spéciales d'il y a six mois...}
+
+\repl{Lubin}{Je comprends votre point de vue, vous voulez être sûre d'écouler.}
+
+\repl{Madame Lépine}{Tiens.}
+
+\repl{Lubin}{C'est justement ce que notre promotion...}
+
+\didas{Apparaissent un pianiste avec son piano et trois danseurs masqués habillés en camionneurs, portant une caisse.}
+
+\repl{Les trois danseurs}{Messieurs dames.}
+
+\repl{Madame Lépine}{Posez-la par ici.}
+
+\repl{Lubin}{Et comment va la petite fille ? Elle serait pas déjà plus grande que sa maman ?}
+
+\repl{Madame Lépine}{Vous êtes de la maison Johnson ?}
+
+\didas{Chanson des camionneurs ; ouverture dansée de la caisse.}
+
+\repl{Les trois danseurs}{--- Eh oui, oh mais oui -- mais si.
+
+--- Eh oui.
+
+--- Oh mais.
+
+--- Oui, mais si.
+
+--- Mais si oui.
+
+--- Si oh mais.
+
+--- Oui mais oh.
+
+--- Mais si -- Eh oui, oh mais -- oui, mais si.}
+
+\didas{Passemar, masqué, s'extrait de la caisse, est happé dans le sillage des danseurs dont les mouvements deviennent plus convulsifs. Passemar au long de la pièce sera tantôt dans les bureaux tantôt sur le théâtre.}
+
+\repl{Les trois danseurs}{Ra ra ra ra-ra ra-ra-ra gué gué ra-ra hi-ra-ra hi-gué-hi hi-hi-hi gué-hi-gué gué-ra-hi-gué hi-gué -- ra-ra-ra.}
+
+\didas{La danse se centre de plus en plus sur Passemar que les danseurs cognent, plaquent à terre, piétinent, relèvent, jettent en l'air, puis qu'ils déposent sur le couvercle de la caisse comme sur un trône. Lubin et Madame Lépine se sont effacés. Les danseurs soulèvent la caisse et, Passemar dessus, la calent sur leurs épaules, la portent en procession. Passemar a ôté son masque -- et on découvre qu'il ressemble à celui-ci comme un frère. Il met ses lunettes, remet en ordre ses vêtements.}
+
+\repl{Passemar}{Je suis l'auteur de cette pièce. Dès le plus jeune âge se manifestait mon don d'écrire : à neuf ans j'avais composé une pièce en un acte qui s'appelle \textit{La Révolte des légumes}. Mais il fallait vivre, alors ç'a été cette petite annonce, "jeune licencié ès lettres, présentant bien", et ils m'ont embauché chez Ravoire et Dehaze pour succéder à un chef de section au service facturation, qui s'était suicidé sans raison apparente. Je ne m'étais jamais, jusqu'à lors, interrogé sur tout ce que ça représente, une facture. D'abord, ça a été un peu la panique. Et puis, \textit{(les danseurs portent la caisse et sortent en dansant)} chez Ravoire et Dehaze, ils ne connaissaient pas mon activité littéraire. Pour eux, j'étais un cadre qui faisait à peu près correctement son boulot. Je dépendais, je dépends toujours de madame Alvarez \textit{(madame Alvarez apparaît. Passemar est maintenant à son bureau)}. Ancienne maîtresse de monsieur Ravoire, le fondateur de la maison, elle est directeur administratif. L'an prochain, elle prend sa retraite et, mon Dieu, si les événements ne prennent pas une autre tournure du fait de l'entrée en scène des Américains, j'ai l'impression que je ne suis pas mal placé pour la succession.}
+
+\didas{Dutôt apparaît. \annot{Nous sommes donc désormais dans les bureaux de l'entreprise et plus au comptoir de Lépine Frères.}}
+
+\repl{Madame Alvarez}{Passemar, ça n'est pas admissible. J'apprends que nous sommes de nouveau en rupture de stock de Super-Douceur...}
+
+\repl{Passemar}{Depuis trois jours.}
+
+\repl{Madame Alvarez}{Et vous n'avez pas réagi ?}
+
+\repl{Passemar}{L'usine ne suit pas.}
+
+\repl{Madame Alvarez}{Le service des ventes gronde, Passemar.}
+
+\repl{Passemar}{J'ai aussitôt fait une note de service à monsieur Olivier, avec copie à monsieur Dutôt.}
+
+\repl{Dutôt}{Je m'en torche de vos notes de service, moi il me faut la camelote. Mes représentants foncent à mort avec leur promotion.}
+
+\repl{Passemar}{Ça n'est pas moi qui fabrique, moi j'achemine.}
+
+\repl*{Madame Alvarez}{au téléphone}{Grangier, voulez-vous venir dans le bureau de Passemar ?}
+
+\repl*{Grangier}{entrant}{Ce n'est pas à l'usine d'anticiper les fluctuations de la demande, que je sache.}
+
+\repl{Dutôt}{Un minimum de flexibilité, ça aiderait.}
+
+\repl{Grangier}{Encore faudrait-il que l'information nous parvienne.}
+
+\repl{Madame Alvarez}{Un peu d'esprit de coopération...}
+
+\repl{Dutôt}{Dites-moi qui en manque ici.}
+
+\repl{Madame Alvarez}{Pourquoi ? Vous vous sentez visé ?}
+
+\repl{Grangier}{Est-ce tout ? Je peux disposer ?}
+
+\didas{Il s'efface.}
+
+\repl{Madame Alvarez}{Évidemment, ce n'est pas la peine de s'attendre chez les gens de l'usine à la moindre initiative.}
+
+\repl{Passemar}{Super-Douceur étant plus cher, on comprend difficilement.}
+
+\repl{Madame Alvarez}{Non seulement plus cher, Passemar, mais une fois sur deux, ça se déchire, et tout vous reste entre les doigts.}
+
+\repl{Passemar}{Peut-être une mutation en profondeur.}
+
+\repl{Dutôt}{Rien d'étonnant, le produit est plus doux. Il suffit de ne pas avoir un cul d'éléphant.}
+
+\repl{Madame Alvarez}{Un bon papier, c'est comme un bon service des ventes, ça résiste et ça fait son travail.}
+
+\repl{Dutôt}{Un bon service administratif est un service qui suit le mouvement, madame Alvarez, et qui se laisse oublier.}
+
+\didas{Il s'efface.}
+
+\repl{Madame Alvarez}{Je me demande, Passemar, ce qui lui donne d'un seul coup tant d'assurance, à cette tapette.}
+
+\repl{Passemar}{C'est bien contre l'avis de monsieur Olivier que monsieur Benoît l'a embauché. Monsieur Olivier voulait un chef des ventes expérimenté.}
+
+\repl{Madame Alvarez}{Je ne peux pas tout vous dire, Passemar, mais il y a des choses qui vous remplissent d'amertume... Donnez-moi une cigarette.}
+
+\repl{Passemar}{Tenez, madame Alvarez.}
+
+\repl{Madame Alvarez}{Voyez-vous, monsieur Olivier est trop scrupuleux. Monsieur Benoît, lui, s'insinue et ça y est, il occupe la place avec ses Dutôt, ses Savini. Il faudrait que monsieur Fernand ouvre les yeux, ou que quelqu'un les lui ouvre.}
+
+\didas{Le modèle nu est apparu, un imperméable sur le dos et un chapeau. Madame Alvarez s'est effacée.}
+
+\repl{Passemar}{Oui, mais le patron \textit{(au modèle)} c'est par ici je crois, tenez \textit{(il la guide jusqu'à l'atelier-salon de monsieur Dehaze puis la laisse)} monsieur Fernand fait de la peinture, le soir, en rentrant chez lui. Il paraît qu'il se défend.}
+
+\didas{Ausange et Dehaze ont pris place, ce dernier devant son chevalet. \annot{Nous sommes donc désormais dans l'atelier-salon de Dehaze.}}
+
+\repl{Ausange}{Cette jeune dame a un cou étonnant...}
+
+\repl{Dehaze}{Difficile à saisir...}
+
+\repl{Ausange}{Qui rappelle celui de la femme allongée de Vélasquez.}
+
+\repl{Dehaze}{C'est gentil d'être venu dès ce soir.}
+
+\repl{Ausange}{À entendre ta voix au téléphone, pouvais-je hésiter ?}
+
+\repl{Dehaze}{Comment va cette cher Lucienne ?}
+
+\repl{Ausange}{En grande forme.}
+
+\repl{Dehaze}{\annot{Au modèle} Mademoiselle, c'est imperceptible, mais cette épaule ne cesse de retomber... \annot{À Ausange} Tu connais mon affaire : moyenne, paisible, roulant sans à-coups, dispensant un produit de première nécessité, occupant le premier rang sur son marché, le chiffre se développant régulièrement de cinq à dix pour cent par an, le capital entièrement dans la famille, un personnel en or \textit{(une servante a déposé service à thé et petits fours sur une table basse)}. En ce moment, tout ça est un peu ébranlé... Des Américains plus gros que nous, vingt ou trente fois plus gros, ont débarqué. Et ceux-là, plus ils sont gros, plus ils ont faim.}
+
+\repl{Ausange}{J'aime bien les Américains.}
+
+\repl{Dehaze}{Je ne les déteste pas.}
+
+\didas{Les deux hommes rient longuement et profondément.}
+
+\repl{Ausange}{Alors ?}
+
+\repl{Dehaze}{Mes ventes baissent avec régularité de quatre pour cent par mois depuis octobre. Je travaille à perte. J'ai le choix : réduire mes dépenses ou au contraire les augmenter, investir en promotion, en publicité.}
+
+\repl{Ausange}{Oui.}
+
+\repl{Dehaze}{Nous n'avons jamais emprunté aux banques.}
+
+\repl{Ausange}{Les banques sont faites pour prêter.}
+
+\repl{Dehaze}{Une vieille répugnance à s'endetter, mon père est mort la tête haute, disant qu'il ne devait rien à personne.}
+
+\repl{Ausange}{Les Américains empruntent quand les affaires vont bien, afin qu'elles aillent encore mieux.}
+
+\repl{Dehaze}{Les Américains cherchent la bagarre... Eh bien ils l'auront.}
+
+\repl{Ausange}{Excellent.}
+
+\repl{Dehaze}{Je lance un nouveau produit plus conforme au goût des français.}
+
+\repl{Ausange}{Bien.}
+
+\repl{Dehaze}{Je reprends l'initiative : emballage bleu-blanc-rouge. Ça peut paraître sommaire, mais je fais jouer la carte nationaliste, et je mets l'accent sur les cordons de la bourse : moins cher et bien de chez nous. Et pour pouvoir suivre, mon cher ami, il me faut cinq cent mille francs. Alors je me jette à l'eau, je cherche à négocier un crédit auprès d'une banque. Tu vois, j'ai lâché le morceau ! \textit{(Il sonne ; la servante entre, un paquet à la main)} Yvonne, oui c'est ça, remettez ça à monsieur. Ouvre, vois mon nouvel enfant !}
+
+\didas{Ausange défait le paquet, en retire un rouleau de papier hygiénique dans une enveloppe bleu-blanc-rouge, le tient des deux mains à hauteur des yeux, puis déchire l'emballage et commence à le dérouler. Dehaze et Ausange s'effacent. La salle des fêtes se remplit de monde. \annot{Nous sommes donc passés de l'atelier-salon de Dehaze à la salle des fêtes.}}
+
+\repl{Passemar}{Ç'a été un fiasco... \textit{(silence)} épouvantable. Si monsieur Fernand avait pu prévoir ça, il aurait sûrement annulé la petite fête annuelle et traditionnelle de Ravoire et Dehaze, et ç'aurait été dommage, parce que cette année on s'est vraiment bien amusés, comme chaque année d'ailleurs. Voici monsieur Lubin, c'est un des six représentants de la maison. Monsieur Lubin danse avec Joëlle, l'aide-caissière, il a l'air très en forme.
+
+--- \annot{Lubin} Où elle est ma cuisse de poulet ? Il y avait une cuisse de poulet dans mon assiette.
+
+--- \annot{Joëlle} Moi j'ai le cafard, depuis qu'elle est née...
+
+--- \annot{Lubin} C'est ravissant, ça coûte cher ?
+
+--- \annot{Joëlle} Je suis plus avec vous qu'avec mon mari, mais je connais mieux mon mari que vous. Je connais pas non plus si bien mon mari.
+
+--- \annot{Lubin} Ça fait six ans au moins que vous l'êtes, mariée ?
+
+--- \annot{Joëlle} Huit ans que je suis ici, à la comptabilité.
+
+--- \annot{Lubin} Vous êtes joliment bien coiffée.
+
+--- \annot{Joëlle} Vous dites ça.
+
+--- \annot{Lubin} C'est vrai que je passe plus de temps avec vous qu'avec ma femme, moi aussi.
+
+--- \annot{Joëlle} Bien sûr, c'est pareil.
+
+--- \annot{Lubin} Y a plus d'éclairs au café ?
+
+--- \annot{Joëlle} C'est surtout au lit que je suis, avec mon mari. Le reste du temps, le boulot, le ménage, encore le boulot, le bistrot, et puis vous savez, il bricole.
+
+--- \annot{Lubin} Nous, avec ma femme, le dimanche, on fait une promenade dans la zone.
+
+--- \annot{Joëlle} Ça fait rien, on passe sa vie ensemble. En même temps, on se connaît pas, ou presque, je vous connais presque pas, moi.
+
+--- \annot{Lubin} Vous avez envie de me connaître ?
+
+--- \annot{Joëlle} Bien sûr !
+
+--- \annot{Lubin} Je savais pas moi.
+
+--- \annot{Joëlle} Savoir qui vous êtes, je suis curieuse.
+
+--- \annot{???} Les pieds en avant.
+
+--- \annot{???} Elle s'était mise à tout dire alors qu'elle lit le courrier confidentiel.
+
+--- \annot{???} Joseph, danse pas trop près de la petite Rose. T'es sourd Joseph ?
+
+--- \annot{Lubin} Mêle-toi de tes amours.
+
+--- \annot{???} Elle a des épines.
+
+--- \annot{Passemar} Je suis encore à l'essai. \annot{Lubin et Joëlle ont probablement arrêté de danser pour aller parler avec Passemar.}
+
+--- \annot{Lubin} Ah, chez la vieille Alvarez.
+
+--- \annot{Passemar} Elle prend sa retraite en novembre.
+
+--- \annot{Lubin} C'est pas trop tôt !
+
+--- \annot{Passemar} Regardez-moi ce goinfre... Ça fait ta combientième cuisse de poulet ?
+
+--- \annot{Joëlle} C'est bien ta faute si t'auras mal au ventre !
+
+--- \annot{Lubin} Qu'ils cherchent à nous exploiter, c'est normal, c'est leur rôle. Qu'est-ce que tu ferais si t'avais le pognon...
+
+--- \annot{Joëlle ou Passemar} Ils disent jamais non.
+
+--- \annot{Lubin} N'ont rien pu dire.
+
+--- \annot{Passemar} Ils ont promis d'examiner ça.
+
+--- \annot{Lubin} Oui, il y a six mois...
+
+--- \annot{Passemar} En ce moment, les ventes tournent pas si rond...
+
+--- \annot{Lubin} Et il y a dix-huit mois !
+
+--- \annot{Joëlle} Taisez-vous, monsieur Olivier essaie de parler !}
+
+\repl{Olivier}{Et maintenant, un peu de silence, on va procéder au tirage de la tombola.
+
+--- \annot{Passemar} Faut essayer de pas trop y penser.
+
+--- \annot{Joëlle} En congé de longue maladie.
+
+--- \annot{Lubin} T'es folle, j'oserais jamais !}
+
+\repl{Olivier}{Je vous rappelle que le premier grand prix de notre tombola est ce beau transistor que voilà, avec modulation de fréquence et prise de pick-up. Je demande à la plus jeune des jeunes filles de la maison...
+
+--- \annot{Passemar ou Lubin} C'est toi Joëlle.
+
+--- \annot{L'autre} Vas-y Joëlle !
+
+--- \annot{Joëlle} Non, c'est Anne-Marie.}
+
+\repl{Olivier}{Approchez-vous mon petit, là. Vous allez tirer au hasard un petit papier dans ce chapeau. C'est fait ? Prenez le micro et lisez le numéro.}
+
+\repl{Anne-Marie}{Quatre-vingt-quatre.}
+
+\repl{Olivier}{Quatre-vingt-quatre ! Qui a le quatre-vingt-quatre ?
+
+--- \annot{Peut-être Passemar, peut-être un(e) employé(e)} C'est pas possible... C'est monsieur Lubin !
+
+--- \annot{Probablement Joëlle, qui le tutoie} C'est toi Lubin.
+
+--- \annot{Peut-être Passemar, peut-être un/e employé/e} Cocu de Lubin !}
+
+\repl{Olivier}{Approchez Lubin. La direction vous félicite !
+
+--- \annot{???} Discours !}
+
+\repl{Olivier}{Allez Lubin, dites un mot.}
+
+\repl{Lubin}{Je remercie la direction, et particulièrement monsieur Fernand, notre président. Je suis bien content !
+
+--- \annot{Celui/Celle qui a demandé un discours} Bravo !}
+
+\repl{Lubin}{D'autant plus que ma fille, Jiji, se marie, alors ma femme va se trouver un peu seule à la maison, alors ça tombe vraiment bien quoi.}
+
+\repl{Olivier}{Et maintenant, notre président-directeur général va nous dire quelques mots, suivant la tradition.}
+
+\repl{Dehaze}{Merci Olivier. Mesdames, mesdemoiselles, messieurs, merci d'être venus si nombreux, comme à l'accoutumée, à notre petite et sympathique réunion, que je me permettrai d'appeler une réunion de famille, tant il est vrai que ceux qui travaillent quarante heures par semaine ensemble forment une authentique communauté. J'en veux pour preuve votre présence, qui n'était pas obligatoire, et votre bonne humeur, qui l'était encore moins. Rassurez-vous, je ne parlerai pas longtemps parce que, ce soir, le boire et le manger, la musique et la gaieté, doivent primer. Mesdames, mesdemoiselles, messieurs, vous travaillez dans une entreprise qui a l'avenir devant elle. Ce n'est pas sans émotion que je préside aux ultimes préparatifs de lancement de notre premier nouveau produit depuis plus de douze ans, et nous l'appellerons Bleu-Blanc-Rouge, lui qui deviendra très vite le compagnon de millions de foyers français !}
+
+\didas{La salle des fêtes commence à se vider. Passemar demeure, un verre à la main. Il est légèrement vacillant.}
+
+\repl{Passemar}{Mon propos est simplement ceci : l'absorption de la moyenne entreprise, où je suis moi-même un cadre moyen, par une puissante société américaine, est-ce un bien ? Est-ce un mal ? Je ne sais pas. J'aimerais y voir plus clair. Ça me fait penser à cette vieille histoire des Ases et des Vanes dont parlait monsieur Onde, du temps où je suivais son cours au Collège de France.}
+
+\didas{Salle de cours du Collège de France. Deux auditrices au fond de la salle tricotent.}
+
+\repl{Monsieur Onde}{Comment la connaissons nous, cette histoire ? Par quatre strophes seulement d'un poème eddique, d'une grande envolée : la \textit{Völuspá}. Pour les Scandinaves, le monde connaît deux peuples de dieux : les Ases et les Vanes. Les Ases ont à leur tête Odin, le dieu roi, et Thor, le dieu guerrier. En face, il y a les Vanes, qui sont les dieux de la fécondité et de la volupté.}
+
+\annot*{Passemar se remémore le cours de monsieur Onde mais il prononce ses répliques dans le même cadre spatiotemporel que la précédente : à la fin de la réunion, dans la salle des fêtes.}
+
+\repl{Passemar}{Non, justement pas. Ça aurait pu tourner autrement, et aujourd'hui encore, tout n'est pas joué.}
+
+\repl{Monsieur Onde}{Les Ases attaquent les Vanes et il s'ensuit, suivant l'expression du poète, "la guerre, pour la première fois dans le monde". Odin marche avec son armée contre les Vanes, mais ceux-ci résistent et défendent leur pays. Tantôt un camp, tantôt l'autre, semble emporter la victoire ; chacun dévaste les terres de l'autre et ils se font des dommages cruels.}
+
+\repl{Passemar}{Trois cent cinquante employés, vingt millions de chiffre d'affaires ; une entreprise ancrée dans de solides traditions et qui n'a pas su à temps prendre le tournant.}
+
+\repl{Monsieur Onde}{Odin lance son épieu dans les rangs ennemis et ce geste doit lui assurer la victoire. En effet, les Vanes sont pris de panique et s'enfuient dans une grande bousculade. Mais le triomphe des Ases n'est pas définitif puisque, contre toute attente, les Vanes parviennent à détruire l'enceinte des Ases.}
+
+\repl{Passemar}{De Minneapolis, ils ont débarqué en force, ont pris pied, et alors que l'effondrement paraissait imminent, il y a eu une petite révolution de palais. Le fils naturel du patron a pris la direction de l'affaire avec une équipe de jeunes cadres, dont je ne suis pas. Mais ça n'empêche pas d'être objectif : ils ont réussi à renverser la vapeur et à mettre en difficulté le colosse d'outre-Atlantique.}
+
+\repl{Monsieur Onde}{Comme si soudain ils en avaient assez de cette alternance épuisante d'échecs et de succès sans suite de part et d'autre, les Ases et les Vanes font la paix. Une paix surprenante, aussi harmonieuse que la guerre a été implacable. Jusqu'à la fin des temps, il n'y aura plus l'ombre d'un conflit entre les Ases et les Vanes. \textit{(Monsieur Onde efface le tableau ; il range ses feuillets. C'est la fin du cours.)} Cela fait plusieurs fois de suite, monsieur, que je remarque votre présence à mon cours. Êtes-vous comparatiste ?}
+
+\annot*{Les répliques de Passemar sont désormais les propos qu'il a tenus avec monsieur Onde au Collège de France.}
+
+\repl{Passemar}{Non, pas du tout.}
+
+\repl{Monsieur Onde}{Permettez-moi de vous demander : dans quel domaine cherchez-vous ?}
+
+\repl{Passemar}{Je ne cherche pas précisément, je m'intéresse.}
+
+\repl{Monsieur Onde}{En dehors de deux ou trois dames âgées, qui l'hiver viennent ici quérir un peu de chaleur, je n'ai pas l'habitude de trouver en face de moi des visages.}
+
+\repl{Passemar}{C'est pourtant passionnant, je m'excuse.}
+
+\repl{Monsieur Onde}{Passionnant ? Mais enfin pourquoi ? Je vois mal, qu'est-ce qui vous intéresse ? Permettez-moi de vouloir saisir : que faites-vous ?}
+
+\didas{Depuis quelque temps sont apparus le pianiste et les trois danseurs masqués, habillés en dieux scandinaves, qui exécutent des mouvements, s'interrompent, reprennent, recommencent le même ensemble de gestes. Monsieur Onde s'efface.}
+
+\annot*{Passemar s'adresse au lecteur.}
+
+\repl{Passemar}{C'est une idée qui m'est venue, de corser un peu ces récits légendaires par une action mimée et dansée qui pourrait avoir du charme : beaux costumes, une musique très moderne, pourquoi pas ? En vérité, je suis tenté par le théâtre total, où toutes les formes d'art concourent au spectacle : le ballet, le cirque, le cinéma, l'opéra... C'est assez exaltant d'imaginer un théâtre sans plus aucune limite au niveau des moyens d'expression. Évidemment, ce sera un spectacle coûteux à monter. Est-ce que je ne diminue pas d'autant mes chances d'être représenté ?}
+
+\didas{Les dieux scandinaves se sont saisis de Passemar, le malmènent et le portent en procession : exode.}
 \end{document}
 
 
